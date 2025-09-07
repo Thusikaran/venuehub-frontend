@@ -1,0 +1,25 @@
+.login-page{
+    position: relative;
+}
+.login-page .setting{
+   position: absolute;
+   top: 20px;
+   right: 20px;
+   cursor: pointer;
+   font-size: 30px;
+   cursor: pointer;
+}
+.login-page .setting-dropdown{
+  position: absolute;
+   top: 60px;
+   right: 10px;  
+   background-color: aliceblue; 
+   padding: 5px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.login-page .setting-dropdown-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

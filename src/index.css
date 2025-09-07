@@ -1,6 +1,28 @@
-:root {
+/* :root {
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   background-color: #242424;
+  width: 100%;
+} */
 
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
 }
+
+[data-theme="dark"] {
+  --bg-color: #242424;
+  --text-color: #ffffff;
+}
+
+[data-theme="light"] {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+}
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  margin: 0;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
 
