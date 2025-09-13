@@ -3,6 +3,7 @@
   background-color: #242424;
   width: 100%;
 } */
+ 
 
 :root {
   --bg-color: #ffffff;
@@ -22,7 +23,7 @@ body {
   background-color: var(--bg-color);
   color: var(--text-color);
   margin: 0;
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 

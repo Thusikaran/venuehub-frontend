@@ -13,7 +13,18 @@
   position: absolute;
    top: 60px;
    right: 10px;  
-   background-color: aliceblue; 
+   background-color: #242424; 
+   color: white;
+   padding: 5px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+.login-page .setting-dropdown-light{
+  position: absolute;
+   top: 60px;
+   right: 10px;  
+   background-color: white; 
+   color: #242424;
    padding: 5px;
    border-radius: 5px;
    cursor: pointer;
@@ -23,3 +34,40 @@
     align-items: center;
     justify-content: center;
 }
+
+.login-page .logo{
+    width: 400px;
+    margin-top: 120px;
+}
+.login-page .icon-row{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* border: solid black; */
+    width: 450px;
+    padding: 0 25px;
+    margin: auto;
+}
+.login-page .login-row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 5px auto;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+.login-page .login-row1 .icon{
+    font-size: 25px;
+    margin-right: 8px;
+}
+.login-page .login-row1 p{
+    font-size: 15px;
+}
+.login-page .login-decription{
+    margin: 0;
+    text-align: justify; 
+    width: 100%; 
+}
+.login-page .login-row{}
