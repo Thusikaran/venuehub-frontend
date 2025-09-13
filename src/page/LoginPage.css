@@ -71,3 +71,19 @@
     width: 100%; 
 }
 .login-page .login-row{}
+
+
+
+
+@media (max-width: 768px) {
+    .login-page .logo{
+        width: 300px;
+    }
+   .login-page .icon-row{
+    width: 300px;
+   }
+   .login-page .login-row{
+    margin-top: 30px;
+   }
+    
+  }
