@@ -35,7 +35,15 @@ const LoginPage = () => {
                 dark mode  <DraggableSwitch  />
             </div>
         </div>
-}
+
+        
+       }
+       <div className='login-footer'>
+{/*      
+       //  Created by  on 13/09/25. */}
+       Copyright © 2025 . All rights reserved.
+       
+       </div>
     </div>
   )
 }
